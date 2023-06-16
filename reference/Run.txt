@@ -1,0 +1,14 @@
+# yolov3
+python detect.py --image ./data/meme.jpg
+
+# yolov3-tiny
+python detect.py --weights ./checkpoints/yolov3-tiny.tf --tiny --image ./data/street.jpg
+
+# webcam
+python detect_video.py --video 0
+
+# video file
+python detect_video.py --video path_to_file.mp4 --weights ./checkpoints/yolov3-tiny.tf --tiny
+
+# video file with output
+python detect_video.py --video path_to_file.mp4 --output ./output.avi
