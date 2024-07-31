@@ -23,7 +23,20 @@ The market for license plate recognition and vehicle tracking solutions is growi
 
 ### Hot it works
 CCTVs installed at some points transmit video in real-time to a server computer. The server identifies the shape of a vehicle's license plate using YOLO and then recognizes the license plate number. The identified number is stored in a MySQL database, which can be accessed via a mobile phone through a graphical user friendly.
+
 ![Mechanism](how%20it%20works.jpeg)
+
+### Engine
+This description explains that YOLOv3, running on TensorFlow 2.0, is used for automatic image cropping based on detected classes, and it employs the COCO dataset for training.
+
+![YOLOv3](demo_yolo_COCO_dataset.jpeg)
+
+### Mobile application mockup
+This describes that the design of the application, which is both clean and user-friendly, was first developed using Figma for mockups.
+
+![mockup](Mock_up_mobile_app.jpeg)
+
+
 
 
 
