@@ -21,5 +21,9 @@ This repository provides machine learning for detecting license numbers. The aim
 ### Background
 The market for license plate recognition and vehicle tracking solutions is growing rapidly, driven by the increased demand for security and monitoring measures in elite neighborhoods, parking lots, and businesses. Intelligent PlateTrack will target these segments, including gated communities, private residences, parking facilities, retail outlets, and corporate campuses. Our LPR app stands out from competitors through its advanced OCR technology, real-time tracking, user-friendly interface, and robust security measures. It offers features such as license plate extraction, timestamping, data analytics, and seamless integration with security systems.
 
+### Hot it works
+CCTVs installed at some points transmit video in real-time to a server computer. The server identifies the shape of a vehicle's license plate using YOLO and then recognizes the license plate number. The identified number is stored in a MySQL database, which can be accessed via a mobile phone through a graphical user friendly.
+![Mechanism](how%20it%20works.jpeg)
+
 
 
