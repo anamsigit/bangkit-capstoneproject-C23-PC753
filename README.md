@@ -27,7 +27,7 @@ CCTVs installed at some points transmit video in real-time to a server computer.
 ![Mechanism](how%20it%20works.jpeg)
 
 ### Engine
-This description explains that YOLOv3, running on TensorFlow 2.0, is used for automatic image cropping based on detected classes, and it employs the COCO dataset for training.
+This description explains that YOLOv3, running on TensorFlow 2.0, is used for automatic image cropping based on detected classes, and it employs the COCO dataset for training. For the real case model should use actual dataset with data augmentation technique or maybe add more dataset by secoundary dataset by kaggle ![indonesian licence id](https://www.kaggle.com/datasets/mhmmdakbar1812/plat-nomor-kendaraan)
 
 ![YOLOv3](demo_yolo_COCO_dataset.jpeg)
 
